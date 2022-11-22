@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> mesma snapshot 1`] = `
+<div
+  class="App"
+>
+  <h1>
+    Pokédex
+  </h1>
+  <nav>
+    <a
+      class="link"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      class="link"
+      href="/about"
+    >
+      About
+    </a>
+    <a
+      class="link"
+      href="/favorites"
+    >
+      Favorite Pokémon
+    </a>
+  </nav>
+  <div
+    class="pokedex"
+  >
+    <h2>
+      Encountered Pokémon
+    </h2>
+    <div
+      class="pokemon"
+    >
+      <div
+        class="pokemon-overview"
+      >
+        <p
+          data-testid="pokemon-name"
+        >
+          Pikachu
+        </p>
+        <p
+          data-testid="pokemon-type"
+        >
+          Electric
+        </p>
+        <p
+          data-testid="pokemon-weight"
+        >
+          Average weight: 
+          6.0
+           
+          kg
+        </p>
+        <a
+          href="/pokemon/25"
+        >
+          More details
+        </a>
+      </div>
+      <img
+        alt="Pikachu sprite"
+        src="https://cdn2.bulbagarden.net/upload/b/b2/Spr_5b_025_m.png"
+      />
+    </div>
+    <div
+      class="pokedex-buttons-panel"
+    >
+      <button
+        class="button-text filter-button"
+        data-testid=""
+        type="button"
+      >
+        All
+      </button>
+      <button
+        class="button-text filter-button"
+        data-testid="pokemon-type-button"
+        type="button"
+      >
+        Electric
+      </button>
+      <button
+        class="button-text filter-button"
+        data-testid="pokemon-type-button"
+        type="button"
+      >
+        Fire
+      </button>
+      <button
+        class="button-text filter-button"
+        data-testid="pokemon-type-button"
+        type="button"
+      >
+        Bug
+      </button>
+      <button
+        class="button-text filter-button"
+        data-testid="pokemon-type-button"
+        type="button"
+      >
+        Poison
+      </button>
+      <button
+        class="button-text filter-button"
+        data-testid="pokemon-type-button"
+        type="button"
+      >
+        Psychic
+      </button>
+      <button
+        class="button-text filter-button"
+        data-testid="pokemon-type-button"
+        type="button"
+      >
+        Normal
+      </button>
+      <button
+        class="button-text filter-button"
+        data-testid="pokemon-type-button"
+        type="button"
+      >
+        Dragon
+      </button>
+    </div>
+    <button
+      class="button-text pokedex-button"
+      data-testid="next-pokemon"
+      type="button"
+    >
+      Próximo Pokémon
+    </button>
+  </div>
+</div>
+`;
