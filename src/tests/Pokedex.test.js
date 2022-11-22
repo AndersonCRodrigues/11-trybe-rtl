@@ -3,7 +3,6 @@ import userEvent from '@testing-library/user-event';
 import renderWithRouter from '../renderWithRouter';
 import pokemonList from '../data';
 import App from '../App';
-import { Pokedex } from '../pages';
 
 describe('<Pokedex />', () => {
   it('Teste se a página contém um heading h2 com o texto Encountered Pokémon', () => {

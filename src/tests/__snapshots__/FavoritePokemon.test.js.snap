@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FavoritePokemon /> mesma snapshot 1`] = `
+<div>
+  <h2>
+    Favorite Pokémon
+  </h2>
+  <div>
+    <p>
+      No favorite Pokémon found
+    </p>
+  </div>
+</div>
+`;
