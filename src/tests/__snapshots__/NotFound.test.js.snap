@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` mesma snapshot 1`] = `
+<div
+  class="not-found"
+>
+  <h2>
+    Page requested not found
+  </h2>
+  <img
+    alt="Pikachu crying because the page requested was not found"
+    class="not-found-image"
+    src="https://media.giphy.com/media/kNSeTs31XBZ3G/giphy.gif"
+  />
+</div>
+`;
